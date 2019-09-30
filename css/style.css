@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* lemon-regular - latin */
+@font-face {
+    font-family: 'Lemon';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/lemon-v8-latin/lemon-v8-latin-regular.eot); 
+    src: local('Lemon Regular'), local('Lemon-Regular'),
+         url('../fonts/lemon-v8-latin/lemon-v8-latin-regular.svg') format('embedded-opentype'), 
+         url('../fonts/lemon-v8-latin/lemon-v8-latin-regular.ttf') format('woff2'), 
+         url('../fonts/lemon-v8-latin-regular.woff') format('woff'),
+         url('../fonts/lemon-v8-latin-regular.ttf') format('truetype'), 
+         url('../fonts/lemon-v8-latin-regular.svg#Lemon') format('svg'); 
+  }
 div{
     width: 15%;
     margin: 0 auto;
@@ -12,12 +25,15 @@ div{
 }
 div>p {
     color: red;
+    font-family: 'Lemon';
 }
 .eins{
-    width: 300px;
+    width: 40%;
     height: 300px;
     background: purple;
 }
 .eins>p{
     color: white;
+    font-family: 'Lemon';
+
 }
